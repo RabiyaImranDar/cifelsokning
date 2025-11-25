@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 
-        private final int devideA = 4;
+        private final int devideA = 3;
         private final int devideB = 2;
 
 
