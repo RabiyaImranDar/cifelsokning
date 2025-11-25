@@ -17,8 +17,7 @@ import static org.junit.jupiter.api.Assertions.*;
         private final int b = 2;
 
 
-
-        private final int devideA = 3;
+        private final int devideA = 4;
         private final int devideB = 2;
 
 
@@ -26,8 +25,6 @@ import static org.junit.jupiter.api.Assertions.*;
         void setUp() {
             calculator = new Calculator();
         }
-
-
 
 
         @Test
@@ -79,8 +76,6 @@ import static org.junit.jupiter.api.Assertions.*;
         void divideByZeroThrowsError(){
             assertThrows(IllegalArgumentException.class, () -> calculator.divide(5,0));
         }
-
-
 
     }
 
